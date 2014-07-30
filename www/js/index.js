@@ -49,6 +49,10 @@ var app = {
 };
 
 $(document).ready(function(){
-    alert('Hello');
+    $( "#startbutton" ).click(function() {
+        alert('Clicked');
+    });
 });
+
+
 
