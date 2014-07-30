@@ -47,3 +47,8 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
+
+$( document ).delegate("#aboutPage", "pageinit", function() {
+    alert('A page with an ID of "aboutPage" was just created by jQuery Mobile!');
+});
+
