@@ -48,4 +48,7 @@ var app = {
     }
 };
 
+$(document).ready(function(){
+    alert('Hello');
+});
 
