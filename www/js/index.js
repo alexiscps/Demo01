@@ -51,6 +51,6 @@ var app = {
 
 $(document).ready(function(){
     $( "#startbutton" ).click(function() {
-        alert('Clicked');
+        window.location.href = "start.html";
     });
 });
