@@ -131,13 +131,11 @@ h1 {
 }
 
 .startpage {
-    background-image: url('../img/bg.jpg');
-}
-
-html {
     background: url(../img/bg.jpg) no-repeat center center fixed;
+    background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
+
