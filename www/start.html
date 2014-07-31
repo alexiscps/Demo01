@@ -49,6 +49,7 @@
 <div class="startpage">
 aSasaSasaSAsaSas
 </div>
+
 <script type="text/javascript" src="cordova.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
 <script>
@@ -74,6 +75,9 @@ aSasaSasaSAsaSas
 
         theWindow.resize(resizeBg).trigger("resize");
 
+        var myPhoneName = device.name;
+
+        alert(myPhoneName);
     });
 </script>
 </body>
