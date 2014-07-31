@@ -45,12 +45,13 @@ var app = {
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
 
-        console.log('Received Event: ' + id);
+        $('#deviceready').hide();
+        $('.app').hide();
+        //console.log('Received Event: ' + id);
     }
 };
 
 $(document).ready(function(){
-    $( "#startbutton" ).click(function() {
-        window.location.href = "start.html";
-    });
+
+
 });
